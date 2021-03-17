@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> <!--formular start-->
+    <section> <!-- first section Ware-->
+        <div>
+    <label for="Ware">Ware</label>
+        </div>
+        <div>
+    <ul>
+        <li>
+            <label for="Plush-Teddybar">Plush-Teddybar</label>
+            <input type="number" >
+        </li>
+        <li>
+            <label for="SofakissenSonnenblume">Sofakissen "Sonnenblume"</label>
+            <input type="number" >
+        </li>
+    </ul>
+</div>
+</section> <!-- close first section-->
+<section> <!-- second section Bezahlung-->
+    <div>
+    <label for="Bezahlung">Bezahlung</label>
+    <br>
+    <br>
+    <label for="Art der Bezahlung">Art der Bezahlung</label>
+    <select name="Karte">
+    <option value="Karte">American Express Card</option>
+</select>
+<br>
+<br>
+    <input type="checkbox" name="checkbox-receipt">
+    <label for="Quittung">Quituung per E-mail an folgende Adresse</label>
+    <input type="email" placeholder="...@...">
+    </div>
+</section> <!-- close second section-->
+<section> <!-- third section Versand-->
+    <div>
+<p>Versand</p>
+
+<p>Lieferanschrift</p>
+<ul>
+    <li>Name
+        <input type="text">
+    </li>
+    <li>Anschrift
+        <input type="text">
+    </li>
+    <li>PLZ
+        <input type="text">
+        <label for="Ort">Ort</label>
+        <input type="text">
+    </li>
+</ul>
+<div>
+    <label for="Rechnungsanschrift">Rechnungsanschrift</label>
+    <ul>
+        <li>Name
+            <input type="text">
+        </li>
+        <li>Anschrift
+            <input type="text">
+        </li>
+        <li>PLZ
+            <input type="text">
+            <label for="Ort">Ort</label>
+            <input type="text">
+        </li>
+    </ul>
+</div>
+</section> <!-- close third section-->
+<section><!-- fourth section Zusatz-->
+    <div>
+<p>Zusatz</p>
+<label style="text-size-adjust: 1;"   for="Nachricht">Ihre Nachricht an uns</label>
+<textarea rows="4" cols="25" name="comment"></textarea>
+<br>
+<br>
+<input type="submit" value="Jetzt kostenpflichtig bestellen">
+</div>
+    </div>
+</section> <!-- close fourth section-->
+</form> <!-- close formular-->
+</body>
+</html>
